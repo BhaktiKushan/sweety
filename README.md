@@ -7,6 +7,14 @@ A small web app where a diabetes patient records up to 4 blood glucose readings 
 - **Auth:** email + password, passwords hashed with bcrypt, JWT sessions
 - Built as the take-home assignment for the Junior Full Stack Developer - JavaScript & AI role at Kenpath.
 
+## Live demo
+
+**https://sweety-os5f.onrender.com**
+
+- Demo login: `demo@sweety.app` / `demo1234` (seeded with ~60 days of sample readings)
+- Hosted on Render's free tier: the app sleeps when idle, so the first visit can take up to a minute to wake up. After that it is fast.
+- The free PostgreSQL database runs until 19 December 2026.
+
 ## Features
 
 **Required**

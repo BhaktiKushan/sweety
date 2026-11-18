@@ -15,7 +15,7 @@ const MAX_VALUE = 600;
 const MESSAGES = {
   valueRequired: 'Please enter a glucose value.',
   valueRange: 'Value must be between 40 and 600 mg/dl.',
-  duplicateSlot: (label) => `You already have an ${label} reading for this date.`,
+  duplicateSlot: (label) => `You already have ${/^[aeiou]/i.test(label) ? 'an' : 'a'} ${label} reading for this date.`,
   maxPerDay: 'You can add only 4 readings per day.',
   futureDate: 'Date cannot be in the future.',
 };
